@@ -1,6 +1,6 @@
 {
   "name": "@specialblend/bak",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "cli utility that makes a timestamped backup copy of a file (if it exists)",
   "main": "bak",
   "bin": "bak",
