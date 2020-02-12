@@ -7,6 +7,9 @@
   "scripts": {
     "test": "true"
   },
+  "files": [
+    "bak"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/specialblend/bak.git"
