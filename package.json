@@ -1,0 +1,24 @@
+{
+  "name": "@specialblend/bak",
+  "version": "0.0.0",
+  "description": "cli utility that makes a timestamped backup copy of a file (if it exists)",
+  "main": "bak",
+  "bin": "bak",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/specialblend/bak.git"
+  },
+  "keywords": [
+    "cli",
+    "backup"
+  ],
+  "author": "cj@specialblend.net",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/specialblend/bak/issues"
+  },
+  "homepage": "https://github.com/specialblend/bak#readme"
+}

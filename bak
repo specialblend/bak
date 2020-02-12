@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+
+STAMP=$(date +"%s")
+SOURCE=$1
+destination="$1-$STAMP.bak"
+
+if [ -f $SOURCE ]; then
+  echo "copying $SOURCE to $destination"
+  cp $SOURCE $destination 2> /dev/null
+  echo "ok"
+  exit 0
+fi
+
+echo "file $SOURCE does not exist"
+exit 0
